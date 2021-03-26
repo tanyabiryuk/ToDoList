@@ -1,0 +1,106 @@
+.List{
+    padding: 0;
+    list-style-type: none;
+    margin: auto;
+    width: 100%;
+    background-color: beige;
+}
+
+.Title{
+    background-color: beige;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.TaskBar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    position:sticky;
+    background-color:beige;
+    padding: 8px;
+    width: 600px;
+    min-height: 300px;
+  }
+
+.ListItem{
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+    word-wrap: break-word;
+    border-bottom: solid rgb(224, 221, 208) 1px;
+    background-color:transparent;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.ListItemDone{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-bottom: solid rgb(224, 221, 208) 1px;
+    background-color: beige;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.ListItemText{
+    padding-left: 4px;
+    background-color: transparent;
+    font-family: cursive;
+    font-style: italic;
+    max-width: 500px;
+    word-wrap: break-word;
+}
+
+.ListItem:hover, .ListItemDone:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 2px 4px #000000;
+}
+
+.ListItemTextDone{
+    padding-left: 4px;
+    background-color: transparent;
+    font-family: cursive;
+    font-style: italic;
+    max-width: 500px;
+    word-wrap: break-word;
+    text-decoration: line-through;
+    opacity: 0.7;
+    transform: scale(0.9);
+}
+
+.ListItem .ListItem_checkbox{
+    transform: scale(2);
+    margin-right: 8px;
+}
+
+.ListItemDone .ListItem_checkbox{
+    transform: scale(0.9);
+    margin-right: 4px;
+}
+
+.ListItem_btn{
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    background:rgb(180, 0, 0);
+    color: white;
+    border-color: rgb(180, 0, 0);
+    margin-left: auto;
+    text-decoration: none;
+    padding:auto;
+    transform: rotate(45deg);
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.ListItem_btn:hover{
+    transform: scale(1.2);
+    transition: all 500ms;
+}

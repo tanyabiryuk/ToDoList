@@ -1,0 +1,124 @@
+.ListLink{
+    min-width: 250px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+    word-wrap:break-word;
+}
+
+.NavBarItem{
+  width: 300px;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px rgb(63, 60, 60);
+}
+
+.NavBarItem:hover{
+    transform: scale(1.05);
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgb(63, 60, 60);
+}
+
+.NavBarItemPressed{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: beige;
+}
+
+.NavBarItemPressed .ListLink{
+  background-color: beige;
+}
+
+.NavBar{
+    min-width: 300px;
+    min-height: 300px;
+    top: 5px;
+    position:relative;
+}
+
+.DeleteBtn{
+  display: flexbox;
+  flex-flow: row;
+  float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    background:rgb(180, 0, 0);
+    color: white;
+    border-color: rgb(180, 0, 0);
+    margin-left: 5px;
+    text-decoration: none;
+    padding:auto;
+    transform: rotate(45deg);
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.DeleteBtn:hover{
+    transform: scale(1.2);
+    transition: all 500ms;
+}
+
+.CreateList{
+    margin-top: 0px;
+  }
+  
+  .CreateListInput{
+    min-width: 300px;
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: cursive;
+    font-style: italic;
+    height: 32px;
+    background-color: white;
+    border:3px solid #ccc;
+    border-radius: 8px;
+    flex: 0;
+    box-shadow: 0px 1px 1px #000000;
+  }
+  
+  .CreateListInput:hover{
+    box-shadow: 0px 2px 4px #000000;
+  }
+  .CreateListInput:focus-within{
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .CreateListBtn{
+    height: 32px;
+    min-width: 300px;
+    border: 1px solid #ccc;
+    background-color: rgb(65, 110, 65);
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: auto;
+    box-shadow: 0px 2px 4px #000000;
+  }
+  
+  .CreateListBtn:disabled,
+  button[disabled]{
+    border: 1px solid #999999;
+    background-color: rgb(88, 121, 88);
+    color: #c0c0c0;
+    box-shadow: none;
+  }
+  .CreateListBtn:disabled:hover
+  {
+    transform: none;
+  }
+  
+  .CreateListBtn:hover{
+    transform: scale(1.1);
+  }

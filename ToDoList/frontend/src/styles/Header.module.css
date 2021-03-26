@@ -1,0 +1,38 @@
+.Logo{
+  margin-left: 20%;
+  padding: 20%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.HeaderTop{
+  margin-bottom: -30px;
+  padding-bottom: 0;
+  font-size: 35px;
+  font:bold;
+  text-transform:uppercase;
+  text-align: left;
+}
+.HeaderBottom{
+  margin-top: -5px;
+  padding-top: 0;
+  font:bold;
+  font-size: 70px;
+}
+
+.ImgLogo{
+  margin-bottom: 0px;
+  /* padding-bottom: 20px; */
+  /* padding: -20px; */
+  margin-right: -16px;
+  margin-top: -50px;
+  width: 90px;
+  height: 90px;
+}
+
+.InlineBlock{
+  display: inline-block;
+}
+

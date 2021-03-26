@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    background-color:rgb(198, 209, 212);
+}
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.tableStructure{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border: solid 1px white;
+}
+.tableStructure td{
+    border: none;
+    padding: 10px;
+    
+}
